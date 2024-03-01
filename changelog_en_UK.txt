@@ -1,0 +1,8 @@
+
+
+by SnifferCaptain
+
+v1:
+	unsolved problems:
+		memory leaks: after opening an BMP file, 1 mb leaks in every approximately 300mb of bmpmalloc(including bmpin).probably by unentirelly freed of BMP chainlist.
+		unable to open an compressed file: because the author is alien to such things.
